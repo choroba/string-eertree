@@ -9,16 +9,17 @@ my %WriteMakefileArgs = (
     VERSION_FROM     => 'lib/String/Eertree.pm',
     ABSTRACT_FROM    => 'lib/String/Eertree.pm',
     LICENSE          => 'artistic_2',
-    MIN_PERL_VERSION => '5.006',
+    MIN_PERL_VERSION => '5.010',
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => '0',
     },
     TEST_REQUIRES => {
         'Test::More' => '0',
+        'Test2::V0'  => '0',
     },
     PREREQ_PM => {
-        #'ABC'              => '1.6',
-        #'Foo::Bar::Module' => '5.0401',
+        'Moo' => '0',
+        'Syntax::Construct' => '0',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'string-eertree-*' },
