@@ -2,7 +2,7 @@
 use Test2::V0;
 
 use String::Eertree;
-plan 4;
+plan 2;
 
 {   my $tree = 'String::Eertree'->new(string => 'referee');
     is  [$tree->palindromes],
