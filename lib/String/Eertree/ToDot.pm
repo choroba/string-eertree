@@ -2,10 +2,6 @@ package String::Eertree::ToDot;
 use Moo;
 extends 'String::Eertree';
 
-=head1 String::Eertree::ToDot
-
-=cut
-
 sub to_dot {
     my ($self) = @_;
     my @lines = ('digraph { rankdir = BT;');
@@ -25,5 +21,30 @@ sub to_dot {
     push @lines, '}';
     return @lines
 }
+
+=head1 NAME
+
+String::Eertree::ToDot - Draw the Eertree graph using graphviz
+
+=head1 VERSION
+
+Version 0.01
+
+=cut
+
+our $VERSION = '0.01';
+
+=head1 SYNOPSIS
+
+This class behaves exactly the same as C<String::Eertree>, but it adds
+a new method C<to_dot>.
+
+    my $tree = 'String::Eertree::ToDot(string => 'eertree');
+    print $tree->to_dot;
+
+The method returns a list of lines you can send to graphviz to draw
+the graph.
+
+=cut
 
 __PACKAGE__

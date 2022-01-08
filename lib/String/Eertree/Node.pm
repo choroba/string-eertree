@@ -1,9 +1,5 @@
 package String::Eertree::Node;
 
-=head1 String::Eertree::Node
-
-=cut
-
 use Moo;
 
 has length     => (is => 'ro',  required => 1);
@@ -22,5 +18,24 @@ sub string {
     my ($self, $eertree) = @_;
     return substr $eertree->string, $self->pos, $self->length
 }
+
+=head1 NAME
+
+String::Eertree::Node - Represents a single node in a String::Eertree
+
+=head1 VERSION
+
+Version 0.01
+
+=cut
+
+our $VERSION = '0.01';
+
+=head1 SYNOPSIS
+
+You can study the implementation if you're interested in how eertrees
+work. Otherwise, just use C<String::Eertree>.
+
+=cut
 
 __PACKAGE__

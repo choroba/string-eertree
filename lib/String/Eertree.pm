@@ -123,7 +123,6 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-
 =head1 SYNOPSIS
 
 Eertrees make it possible to find palindrome substrings of a string in a very
@@ -216,3 +215,5 @@ This is free software, licensed under:
   The Artistic License 2.0 (GPL Compatible)
 
 =cut
+
+__PACKAGE__
