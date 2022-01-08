@@ -204,7 +204,8 @@ Thanks Mohammad S Anwar (MANWAR) for introducing me to the idea.
 Thanks L<shubham2508|https://github.com/shubham2508> for a clean Python
 implementation.
 
-Thanks Mikhail Rubinchik and Arseny M. Shur for inventing the eertree.
+Thanks Mikhail Rubinchik and Arseny M. Shur for inventing the eertree
+(arXiv:1506.04862v2 [cs.DS] 17 Aug 2015).
 
 =head1 LICENSE AND COPYRIGHT
 
