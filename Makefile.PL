@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
         'Moo' => '0',
         'Syntax::Construct' => '0',
     },
-    dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
+    dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', TAR => 'ptar' },
     clean => { FILES => 'string-eertree-*' },
 );
 
