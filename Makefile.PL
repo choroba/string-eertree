@@ -15,7 +15,7 @@ my %WriteMakefileArgs = (
     },
     TEST_REQUIRES => {
         'Test::More' => '0',
-        'Test2::V0'  => '0',
+        'Test2::V0'  => '0.000081',
     },
     PREREQ_PM => {
         'Moo' => '0',
