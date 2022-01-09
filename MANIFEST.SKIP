@@ -1,3 +1,6 @@
 .git
 .*~
 MANIFEST.SKIP
+README
+String-Eertree-.*/
+String-Eertree-.*\.gz
