@@ -133,6 +133,12 @@ fast way.
     my $tree = 'String::Eertree'->new(string => 'referee');
     my @palindromes = $tree->uniq_palindromes;  # r e f efe refer ere ee
 
+To see how fast it is, check the file F<examples/rosetta-code.pl>. It compares
+the speed of the Eertree algorithm to a naive generation of all the unique
+palindromes as found at L<Rosetta
+Code|https://rosettacode.org/wiki/Eertree#Perl>. Eertree is almost 40 times
+faster on a string of length 79.
+
 =head1 METHODS
 
 =head2 new
