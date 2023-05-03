@@ -23,16 +23,13 @@ You can also look for information at:
     RT, CPAN's request tracker (report bugs here)
         https://rt.cpan.org/NoAuth/Bugs.html?Dist=string-eertree
 
-    CPAN Ratings
-        https://cpanratings.perl.org/d/string-eertree
-
     Search CPAN
         https://metacpan.org/release/string-eertree
 
 
 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2022 by E. Choroba.
+This software is Copyright (c) 2022-2023 by E. Choroba.
 
 This is free software, licensed under:
 
