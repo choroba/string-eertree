@@ -12,4 +12,5 @@ t/04-palindromes.t
 t/05-todot.t
 xt/manifest.t
 xt/pod.t
+xt/versions.t
 examples/rosetta-code.pl
