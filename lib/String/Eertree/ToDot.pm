@@ -37,9 +37,9 @@ our $VERSION = '0.03';
 =head1 SYNOPSIS
 
 This class behaves exactly the same as C<String::Eertree>, but it adds
-a new method C<to_dot>.
+a new method C<to_dot>. 
 
-    my $tree = 'String::Eertree::ToDot(string => 'eertree');
+    my $tree = 'String::Eertree::ToDot->new(string => 'eertree');
     print $tree->to_dot;
 
 The method returns a list of lines you can send to graphviz to draw
